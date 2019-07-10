@@ -1,0 +1,47 @@
+,Repo_Url,Num_Activities,Longest_Activity_Chain_Count,Longest_Activity_Chain,,Modifications,Rejection Criteria
+18,https://github.com/kkong006/De-Classify,15,9,SplashActivity -> LoginActivity -> AccountInfoActivity -> VerifyActivity -> MainActivity -> FindProfActivity -> ProfSummaryActivity -> ReviewsActivity -> ReadReviewActivity,,,Makes use of okhttp 2 versus okhttp 3 clients.  
+3,https://github.com/andela-shassan/ArtiSpective,12,9,DetailEvent -> CreateEventActivity -> EventActivity -> ProfileActivity -> RegisterActivity -> LoginActivity -> HomeActivity -> DetailArticle -> CreateArticleActivity,,"Removed the implementation fileTree(dir: 'libs', include: ['*.jar']). 
+Line in gradle due to a Dex error
+
+Had to manually instrument the okhttp cliennt given that the plugin is not able to handle the builder design pattern whenever instrumenting okhttp",Project is not finished and the endpoint (heroku) is non-functional.  The project is not in active development either 
+25,https://github.com/ngageoint/anti-piracy-android-app,17,7,MainActivity -> DisclaimerActivity -> LaunchScreenActivity -> TextQueryActivity -> AllAsamsMapActivity -> AsamListActivity -> AsamReportActivity,,"Removed the “Release” build flavor in the gradle build file.  Therefore, I am using a debug “build flavor.  The reason is because the gradle build would not compile otherwise.  Also, have had to update the gradle wrapper from an older version to its current version.  Changed the compile gradle to use implementation. Removed the build tools.  Updated the app compat version to version 28 for bot hthe prefetching lib and the project itself.   Also changed the targetsdk to version 28 for the project (original 25) given that nappa has a 28 compile.  Added a google maps API key (mine) to be able to make the project work.Changed MinSdk version to version 19.  Added source compatibility to the gradle build:    
+
+ CompileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }","Most of the queries made for this application are made by using Google’s Map SDK thus,  the only place where okhttp requests take place is in a single activity, which is ‘searching’ function.   This search function makes use of resources defined inside the activity itself, thus,  there are no intents to be intercepted (that are meaningful to the web prefetching)."
+2,https://github.com/albertogiunta/justintrain-client-android,10,6,JourneyResultsActivity -> JourneySearchActivity -> TrainDetailsActivity -> FavouriteJourneysActivity -> AboutActivity -> IntroActivity,,Downgraded the Room database to make use of Room 1.0.0 versus 1.0.0-alpha 8 from the app side.,"Cannot compile application even after removing release as an available build and removing dependencies on keystore.   groovy.lang.MissingPropertyException: was thrown, where a missing property for html reporting would not allow the project to compile."
+12,https://github.com/gitskarios/Gitskarios,52,5,NotificationsActivity -> MainActivity -> SplashActivity -> WelcomeActivity -> AlternateLoginActivity,,,"Could not compile the applciation for the following reason:
+ERROR: Could not GET 'https://jitpack.io/androidx/databinding/databinding-compiler-common/3.3.0/databinding-compiler-common-3.3.0.pom'. Received status code 521 from server: Origin Down
+Enable Gradle 'offline mode' and sync project.  I enabled an offling gradle version but this did not work either.   At any rate, the project has been stopped indefinitely."
+4,https://github.com/AnimeNeko/Atarashii,11,5,FirstTimeInit -> Home -> ScheduleActivity -> DetailView -> ForumActivity,,,"There are quite a few issues with product flavors, as they are porrly defined , and gradle cannot compile them.  Uppon removing them from the project, other issues emerege with other dependencies.,   The Project does not work"
+16,https://github.com/jawg/osm-contributor,12,4,SplashScreenActivity -> MapActivity -> OfflineRegionsActivity -> OfflineRegionDownloadService,,,Must request a flickr API key to compile the project
+33,https://github.com/SPMakings/TAAS,12,4,SplashActivity -> LandingActivity -> QuestionDetails -> WebViewActivity,,"Had to manually instrument fragments, given that there were fragments that did contain relevant http requests.  Otherwise, this project follows all the requirements by NAPPA Perfectly.","The API for this application is either non—public or is down.  The app cannot make requests, and cannot fetch the data necessary to run"
+8,https://github.com/BioStar2/BioStar2Android,4,4,DummyActivity -> LoginActivity -> HomeActivity -> DoorMapActivity,,, This app requires an operating BioStar 2 server with connection to BioStar 2 Cloud.
+32,https://github.com/silva96/guessthehashtag,4,4,LauncherActivity -> MainActivity -> ResultsActivity -> AuthActivity,,,
+29,https://github.com/samuelclay/NewsBlur,30,3,AddSocial -> Main -> SearchForFeeds,,INSTRUMENTED BY GIANLUCA AND ANTONIO,
+34,https://github.com/unsftn/unsmobile,11,3,MainActivity -> PeopleActivity -> SearchedPeopleActivity,,,
+7,https://github.com/Ayuget/Redface,9,3,AccountActivity -> TopicsActivity -> ReplyActivity,,,
+17,https://github.com/junjunguo/PocketMaps,9,3,ShowLocationActivity -> MainActivity -> DownloadMapActivity,,,
+14,https://github.com/jalotsav/JamnadasConnect,8,3,SignIn -> SignUp -> VerifyMobileNo,,,
+22,https://github.com/MKergall/osmbonuspack,8,3,MapActivity -> KmlStylesActivity -> KmlStyleActivity,,,
+0,https://github.com/adithya321/Shares-Analytics,7,3,ProfileActivity -> MainActivity -> IntroActivity,,,
+13,https://github.com/guardianproject/ObscuraCam,6,3,MainActivity -> VideoEditor -> VideoPreferences,,,
+15,https://github.com/javimar/WirelessVLC,6,3,MainActivity -> MapWifis -> PanoramaActivity,,,
+23,https://github.com/mosmetro-android/mosmetro-android,5,3,DebugActivity -> SettingsActivity -> ConnectionService,,,
+24,https://github.com/nfdz/saved.io-plus-plus,5,3,IntroActivity -> MainActivity -> SettingsActivity,,,
+6,https://github.com/Arkanayan/BuieConnect-Android,4,3,EditUserActivity -> MainActivity -> LoginActivity,,,
+11,https://github.com/emanuelet/Trove,4,3,BookDetailActivity -> BookListActivity -> SettingsActivity,,,
+27,https://github.com/pretix/pretixdroid,4,3,MainActivity -> SearchActivity -> SyncService,,,
+5,https://github.com/Antox/Antox,16,2,SplashActivity -> chat,,,
+9,https://github.com/ccjeng/TPTrash,10,2,AdActivity -> DoorMapActivity,,,
+30,https://github.com/septadev/SEPTA-Android,9,2,MainActivity -> TransitViewResultsActivity,,,
+31,https://github.com/shts/NogiFeed,9,2,OtherMenuActivity -> MemberDetailActivity,,,
+20,https://github.com/MD2Korg/mCerebrum-DataKit,8,2,ActivityMain -> ServiceCerebralCortex,,,
+1,https://github.com/akihito104/UdonRoad,7,2,MainActivity -> UserSettingsActivity,,,
+19,https://github.com/lahwran/pin,5,2,MainActivity -> SettingsActivity,,,
+10,https://github.com/chenjishi/ITNews,4,2,DetailsActivity -> CommentActivity,,,
+21,https://github.com/Meisterschueler/ogn-viewer-android,4,2,MapsActivity -> ManageIDsActivity,,,
+26,https://github.com/orcchg/ChatClient,4,2,RegistrationActivity -> LoginActivity,,,
+28,https://github.com/prshntpnwr/Monolith,4,2,MainActivity -> AboutActivity,,,
+35,https://github.com/uruba/TruckApp,4,2,MainActivity -> WebViewActivity,,,

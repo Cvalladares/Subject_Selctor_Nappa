@@ -1,0 +1,57 @@
+,Repo_Url,Num_Activities,Longest_Activity_Chain_Count,Longest_Activity_Chain
+0,https://github.com/abhijitparida/bunk,4,3,LoginActivity -> AttendanceActivity -> SettingsActivity
+1,https://github.com/adithya321/Shares-Analytics,7,3,MainActivity -> IntroActivity -> ProfileActivity
+2,https://github.com/adriankeenan/uob-timetable-android,5,4,WelcomeActivity -> CourseListActivity -> MainActivity -> DeveloperActivity
+3,https://github.com/akihito104/UdonRoad,7,2,MainActivity -> UserSettingsActivity
+4,https://github.com/albertogiunta/justintrain-client-android,10,6,JourneyResultsActivity -> JourneySearchActivity -> TrainDetailsActivity -> FavouriteJourneysActivity -> AboutActivity -> LicencesActivity
+5,https://github.com/andela-shassan/ArtiSpective,12,9,DetailEvent -> CreateEventActivity -> EventActivity -> ProfileActivity -> RegisterActivity -> LoginActivity -> HomeActivity -> DetailArticle -> CreateArticleActivity
+6,https://github.com/AnimeNeko/Atarashii,11,5,FirstTimeInit -> Home -> ScheduleActivity -> DetailView -> ForumActivity
+7,https://github.com/Antox/Antox,16,2,SplashActivity -> chat
+8,https://github.com/appteam-nith/Hillffair,25,8,SplashActivity -> WelcomeActivity -> ThemeSelectionActivity -> SettingsActivity -> HomeActivity -> QuizActivity -> QuizQuestionActivity -> QuizScoreActivity
+9,https://github.com/Arkanayan/BuieConnect-Android,4,3,EditUserActivity -> MainActivity -> LoginActivity
+10,https://github.com/Art2Cat/MoonlightNote,6,3,SettingsActivity -> MoonlightActivity -> NoticeDetailActivity
+11,https://github.com/Ayuget/Redface,9,3,AccountActivity -> TopicsActivity -> ReplyActivity
+12,https://github.com/BioStar2/BioStar2Android,4,4,DummyActivity -> LoginActivity -> HomeActivity -> DoorMapActivity
+13,https://github.com/ccrama/Slide,90,6,Tumblr -> TumblrPager -> Website -> Album -> AlbumPager -> ImageDownloadNotificationService
+14,https://github.com/chenjishi/ITNews,4,2,DetailsActivity -> CommentActivity
+15,https://github.com/DiabHelp/DiabHelp-App-Android,12,4,SplashScreen -> ConnexionActivity -> CoreActivity -> Faq
+16,https://github.com/eman-1111/EasyA,12,5,AddFriendActivity -> FriendsList -> CourseListFriends -> LessonListFriends -> LessonDetailFriend
+17,https://github.com/emanuelet/Trove,4,3,NewspapersArticleActivity -> BookListActivity -> SettingsActivity
+18,https://github.com/erdemolkun/instant-rates,4,3,SplashActivity -> LandingActivity -> RatePollingService
+19,https://github.com/gitskarios/Gitskarios,52,5,NotificationsActivity -> MainActivity -> SplashActivity -> WelcomeActivity -> AlternateLoginActivity
+20,https://github.com/guardianproject/ObscuraCam,6,3,MainActivity -> VideoEditor -> VideoPreferences
+21,https://github.com/hercarr/photofinder,4,3,MainActivity -> PhotoDetailActivity -> ViewPhotoActivity
+22,https://github.com/irccloud/android,19,6,PreferencesActivity -> LoginActivity -> MainActivity -> PastebinsActivity -> PastebinViewerActivity -> ChromeCopyLinkBroadcastReceiver
+23,https://github.com/jalotsav/JamnadasConnect,8,3,SignIn -> SignUp -> NavgtnDrwrMain
+24,https://github.com/javimar/WirelessVLC,6,3,MainActivity -> MapWifis -> PanoramaActivity
+25,https://github.com/jawg/osm-contributor,12,4,SplashScreenActivity -> MapActivity -> LoadProfileActivity -> OfflineRegionDownloadService
+26,https://github.com/junjunguo/PocketMaps,9,3,ShowLocationActivity -> MainActivity -> DownloadMapActivity
+27,https://github.com/kkong006/De-Classify,15,9,SplashActivity -> LoginActivity -> AccountInfoActivity -> VerifyActivity -> MainActivity -> SearchActivity -> ResultsListActivity -> ReviewsActivity -> ReadReviewActivity
+28,https://github.com/kontalk/androidclient,21,3,ComposeMessage -> ConversationsActivity -> MyKeyActivity
+29,https://github.com/lahwran/pin,5,2,AcknowledgeActivity -> SettingsActivity
+30,https://github.com/leapcode/bitmask/android,10,3,StartActivity -> MainActivity -> LoginActivity
+31,https://github.com/Longi94/bptf,13,2,MainActivity -> SettingsActivity
+32,https://github.com/MD2Korg/mCerebrum-DataKit,8,2,ActivityClear -> ServiceCerebralCortex
+33,https://github.com/Meisterschueler/ogn-viewer-android,4,2,MapsActivity -> PrefsActivity
+34,https://github.com/mgolokhov/dodroid,5,2,SplashActivity -> TopicsChooserActivity
+35,https://github.com/MKergall/osmbonuspack,8,3,MapActivity -> KmlStylesActivity -> KmlStyleActivity
+36,https://github.com/mosmetro-android/mosmetro-android,5,3,DebugActivity -> SettingsActivity -> SafeViewActivity
+37,https://github.com/nfdz/saved.io-plus-plus,5,3,IntroActivity -> MainActivity -> EditBookmarkActivity
+38,https://github.com/ngageoint/anti-piracy-android-app,17,7,MainActivity -> DisclaimerActivity -> LaunchScreenActivity -> TextQueryActivity -> AllAsamsMapActivity -> AsamListActivity -> AsamReportActivity
+39,https://github.com/nvh0412/dealhunting,5,2,MainActivity -> IntroActivity
+40,https://github.com/orcchg/ChatClient,4,2,LoginActivity -> RegistrationActivity
+41,https://github.com/phpnetfrance/drivinCloudOpen,11,4,SplashScreen -> LoginActivity -> AcceuilActivity -> CustomNNFilePickerActivity
+42,https://github.com/pretix/pretixdroid,4,3,MainActivity -> SearchActivity -> SyncService
+43,https://github.com/proxysh/Safejumper-for-Android,16,3,RemoteAction -> LaunchVPN -> OpenVPNStatusService
+44,https://github.com/prshntpnwr/Monolith,4,2,MainActivity -> AboutActivity
+45,https://github.com/rustelefonen/hap-android,15,4,SplashActivity -> IntroActivity -> MainActivity -> TriggerActivity
+46,https://github.com/samuelclay/NewsBlur,30,3,InitActivity -> Main -> SearchForFeeds
+47,https://github.com/septadev/SEPTA-Android,9,2,MainActivity -> TransitViewResultsActivity
+48,https://github.com/shts/NogiFeed,9,2,OtherMenuActivity -> MemberDetailActivity
+49,https://github.com/Shuanghua/LikeGank,8,2,AboutActivity -> IOSActivity
+50,https://github.com/silva96/guessthehashtag,4,4,LauncherActivity -> MainActivity -> ResultsActivity -> AuthActivity
+51,https://github.com/SPMakings/TAAS,12,4,SplashActivity -> LandingActivity -> QuestionDetails -> WebViewActivity
+52,https://github.com/tanrabad/survey,20,2,LogoutActivity -> PreferenceActivity
+53,https://github.com/unsftn/unsmobile,11,3,MainActivity -> PeopleActivity -> SearchedPeopleActivity
+54,https://github.com/uruba/TruckApp,4,2,MainActivity -> WebViewActivity
+55,https://github.com/xiprox/WaniKani-for-Android,12,3,CriticalItemsActivity -> ItemDetailsActivity -> Browser

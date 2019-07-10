@@ -1,0 +1,42 @@
+,Repo_Url,Num_Activities,Longest_Activity_Chain_Count,Longest_Activity_Chain
+21,https://github.com/kkong006/De-Classify,15,9,SplashActivity -> LoginActivity -> AccountInfoActivity -> VerifyActivity -> MainActivity -> SearchActivity -> ResultsListActivity -> ReviewsActivity -> ReadReviewActivity
+29,https://github.com/ngageoint/anti-piracy-android-app,17,7,MainActivity -> DisclaimerActivity -> LaunchScreenActivity -> TextQueryActivity -> AllAsamsMapActivity -> AsamListActivity -> AsamReportActivity
+3,https://github.com/andela-shassan/ArtiSpective,12,6,Welcome -> HomeActivity -> EventActivity -> LoginActivity -> RegisterActivity -> ProfileActivity
+19,https://github.com/jawg/osm-contributor,12,4,SplashScreenActivity -> MapActivity -> LoadProfileActivity -> OfflineRegionDownloadService
+37,https://github.com/SPMakings/TAAS,12,4,SplashActivity -> LandingActivity -> QuestionDetails -> AssignActivity
+4,https://github.com/AnimeNeko/Atarashii,11,4,Home -> ScheduleActivity -> DetailView -> ForumActivity
+2,https://github.com/albertogiunta/justintrain-client-android,10,4,FavouriteJourneysActivity -> JourneyResultsActivity -> JourneySearchActivity -> TrainDetailsActivity
+36,https://github.com/silva96/guessthehashtag,4,4,LauncherActivity -> AuthActivity -> MainActivity -> ResultsActivity
+14,https://github.com/gitskarios/Gitskarios,52,3,SplashActivity -> WelcomeActivity -> AlternateLoginActivity
+33,https://github.com/samuelclay/NewsBlur,30,3,InitActivity -> Main -> SearchForFeeds
+38,https://github.com/unsftn/unsmobile,11,3,MainActivity -> PeopleActivity -> SearchedPeopleActivity
+0,https://github.com/adithya321/Shares-Analytics,7,3,MainActivity -> IntroActivity -> ProfileActivity
+15,https://github.com/guardianproject/ObscuraCam,6,3,MainActivity -> VideoEditor -> VideoPreferences
+18,https://github.com/javimar/WirelessVLC,6,3,MainActivity -> MapWifis -> PanoramaActivity
+8,https://github.com/BioStar2/BioStar2Android,4,3,LoginActivity -> HomeActivity -> DoorMapActivity
+31,https://github.com/pretix/pretixdroid,4,3,MainActivity -> SearchActivity -> SyncService
+5,https://github.com/Antox/Antox,16,2,SplashActivity -> chat
+9,https://github.com/ccjeng/TPTrash,10,2,MainActivity -> DoorMapActivity
+7,https://github.com/Ayuget/Redface,9,2,TopicsActivity -> ReplyActivity
+20,https://github.com/junjunguo/PocketMaps,9,2,MainActivity -> MapActivity
+17,https://github.com/jalotsav/JamnadasConnect,8,2,ActvtyMain -> NavgtnDrwrMain
+24,https://github.com/MD2Korg/mCerebrum-DataKit,8,2,ActivityMain -> ServiceCerebralCortex
+1,https://github.com/akihito104/UdonRoad,7,2,MainActivity -> LicenseActivity
+23,https://github.com/lahwran/pin,5,2,MainActivity -> CompliceListActivity
+27,https://github.com/mosmetro-android/mosmetro-android,5,2,SettingsActivity -> SafeViewActivity
+28,https://github.com/nfdz/saved.io-plus-plus,5,2,MainActivity -> EditBookmarkActivity
+6,https://github.com/Arkanayan/BuieConnect-Android,4,2,MainActivity -> LoginActivity
+12,https://github.com/emanuelet/Trove,4,2,BookListActivity -> NewspapersArticleActivity
+25,https://github.com/Meisterschueler/ogn-viewer-android,4,2,MapsActivity -> ManageIDsActivity
+32,https://github.com/prshntpnwr/Monolith,4,2,MainActivity -> AboutActivity
+39,https://github.com/uruba/TruckApp,4,2,MainActivity -> SettingsActivity
+16,https://github.com/ivan-kudziev/sog,38,0,
+10,https://github.com/charlesmadere/that-lil-hummingbird,29,0,
+34,https://github.com/septadev/SEPTA-Android,9,0,
+35,https://github.com/shts/NogiFeed,9,0,
+22,https://github.com/konifar/droidkaigi2016,8,0,
+26,https://github.com/MKergall/osmbonuspack,8,0,
+13,https://github.com/FernandoOrtegaMartinez/Planket,6,0,
+11,https://github.com/chenjishi/ITNews,4,0,
+30,https://github.com/orcchg/ChatClient,4,0,
+40,https://github.com/w9jds/MarketBot,4,0,
